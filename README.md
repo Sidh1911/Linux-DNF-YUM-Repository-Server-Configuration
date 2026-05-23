@@ -32,3 +32,13 @@ Client Site: -
   # dnf search vsftpd                                        (to search pkg)  
   # dnf list vsftpd                   (to show pkg install of not)  
   # dnf history                       (to show history)  
+
+
+  install 
+
+  ![image alt]()
+
+  update
+
+    ![image alt]()
+
