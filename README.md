@@ -36,7 +36,7 @@ Client Site: -
 
   install 
 
-  ![image alt]()
+  ![image alt](https://github.com/Sidh1911/Linux-DNF-YUM-Repository-Server-Configuration/blob/7812c8ddc137d17ae91d142a480029ca801d7ed3/6093565678649544607.jpg)
 
   update
 
