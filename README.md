@@ -18,7 +18,7 @@ Client Site: -
  # vim /etc/yum.repos.d/rhel.repo              [to create repo file]  
   (Add the following line) 
 
-  ![image alt]()
+  ![image alt](https://github.com/Sidh1911/Linux-DNF-YUM-Repository-Server-Configuration/blob/8716ae4e697a93a17b68a598bb95d51312687e32/Screenshot%202026-05-23%20171808.png)
 
   ESC: wq  
  # dnf clean all  
