@@ -1,2 +1,34 @@
 # Linux-DNF-YUM-Repository-Server-Configuration
 Configured and managed a Linux DNF/YUM repository server to provide software package installation, update, and removal services for client systems in a virtual machine environment.
+
+
+ON Server Machine  
+How to configure DNF/YUM Server in RHEL - 
+To mount RHEL DVD inside your Linux server use the mount command.
+[root@skynetlinux ~]# mount /dev/sr0 /mnt  
+[root@skynetlinux ~]# mkdir -p /var/www/html/rhel           [to create directory]  
+[root@skynetlinux ~]# cd /mnt                                   [go to /mnt directory]  
+[root@skynetlinux mnt]# cp –Rv  BaseOS  AppStream /var/www/html/rhel  [copy all file/folder] 
+[root@skynetlinux mnt]# cd      
+[root@skynetlinux ~]# vim /etc/yum.repos.d/rhel.repo                  [Edit rhel.repo file] 
+
+![image alt]()
+
+Client Site: -  
+ # vim /etc/yum.repos.d/rhel.repo              [to create repo file]  
+  (Add the following line) 
+
+  ![image alt]()
+
+  ESC: wq  
+ # dnf clean all  
+ # dnf repolist  all  -v                    [to check status]  
+ 
+ *** How to install/remove/update Package via yum Server ***  
+  
+  # dnf install vsftpd                (to install pkg)  
+  # dnf remove vsftpd                (to uninstall pkg)  
+  # dnf update vsftpd                 (to update pkg)  
+  # dnf search vsftpd                                        (to search pkg)  
+  # dnf list vsftpd                   (to show pkg install of not)  
+  # dnf history                       (to show history)  
