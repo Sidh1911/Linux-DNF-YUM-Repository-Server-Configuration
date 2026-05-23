@@ -40,5 +40,5 @@ Client Site: -
 
   update
 
-    ![image alt]()
+  ![image alt](https://github.com/Sidh1911/Linux-DNF-YUM-Repository-Server-Configuration/blob/81209b877ea89970cea98359ddf030fe3655d134/6093565678649544608.jpg)
 
