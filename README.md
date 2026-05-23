@@ -12,7 +12,7 @@ To mount RHEL DVD inside your Linux server use the mount command.
 [root@skynetlinux mnt]# cd      
 [root@skynetlinux ~]# vim /etc/yum.repos.d/rhel.repo                  [Edit rhel.repo file] 
 
-![image alt]()
+![image alt](https://github.com/Sidh1911/Linux-DNF-YUM-Repository-Server-Configuration/blob/b92152bd85be58c0a7947f029b8550a7d1b6c997/Screenshot%202026-05-23%20171634.png)
 
 Client Site: -  
  # vim /etc/yum.repos.d/rhel.repo              [to create repo file]  
